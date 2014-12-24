@@ -1,5 +1,11 @@
+React Wires
+
+
+P.O.C. for implementing React views in Marionette Wires
+
+
 Marionette Wires
-================
+
 
 An opinionated starter application built with Marionette.js.
 
@@ -36,6 +42,8 @@ As a general rule, be sure to read through all of the source code yourself and m
 | [src](./src) | Source files |
 | [test](./test) | Test files |
 
-===
+
 
 &copy; 2014 James Kyle. Distributed under [ISC license](LICENSE.md).
+
+
