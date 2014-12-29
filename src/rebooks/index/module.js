@@ -1,6 +1,5 @@
 var React = require('react');
 
-
 mymodule = React.createClass({
 	render: function(foo) {
 		var blackColor = {color: "red"};
