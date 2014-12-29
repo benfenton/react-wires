@@ -1,6 +1,7 @@
 var Route = require('src/common/route');
 var Backbone = require('backbone');
 var React = require('react');
+var MyModule = React.createFactory(require('./module'));
 
 module.exports = Route.extend({
     initialize: function(options) { 
@@ -30,7 +31,7 @@ module.exports = Route.extend({
                     this.props.collection.forEach(function(result) {
                         switch(result.id) {
                             case 1:
-                                return items['result-' + result.id] = <li style={greenColor}>{result.title}</li>;
+                                return items['result-' + result.id] = MyModule(key = result.id, result.title);
                                 break;
                             case 2:
                                 return items['result-' + result.id] = <li style={blueColor}>{result.title}</li>;
